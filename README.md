@@ -4,6 +4,9 @@ This is a small app where I add football teams, edit their season stats, and see
 
 I want a clean example that saves data, returns it without surprises, and keeps the screen in sync with the database. This repo shows that end-to-end.
 
+![Uploading image.png…]()
+
+
 ## What it does
 
 You can create a team with season numbers, update those numbers, or delete the team.
