@@ -1,11 +1,10 @@
-This is a small app where I add football teams, edit their season stats, and see the results on a web page. I built it to practice a full-stack flow with a real database: store data, read it through an API, and show it in the browser.
+<img width="1705" height="856" alt="image" src="https://github.com/user-attachments/assets/ef9b7299-440d-46fb-977a-870aa2c4d145" />This is a small app where I add football teams, edit their season stats, and see the results on a web page. I built it to practice a full-stack flow with a real database: store data, read it through an API, and show it in the browser.
 
 ## Why I built this
 
 I want a clean example that saves data, returns it without surprises, and keeps the screen in sync with the database. This repo shows that end-to-end.
 
-![Uploading image.png…]()
-
+<img width="1699" height="861" alt="image" src="https://github.com/user-attachments/assets/acf3ab74-1d7b-4db0-b66e-c8a5e084bd58" />
 
 ## What it does
 
