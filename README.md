@@ -1,51 +1,38 @@
-A small full-stack app I built to practice clean CRUD, API design, and DB → API → UI wiring.
-It lets me add teams, update stats, run simple queries (first 10, averages, per-team stats), and view them in a React UI.
+Football Stats (React + Node + MongoDB)
 
-I made this because real projects always need persistent data, simple endpoints, and a UI that doesn’t break when the data changes.
+Small app to add teams, edit their season stats, and read simple numbers.
+I built it to practice a basic full-stack flow with a real database.
 
-**What it does**
+Why I built this
 
-Add / edit / delete football teams with season stats
+I wanted a simple app that saves data, not just prints it.
 
-Query: first 10 teams, averages per year, per-team stats
+I wanted clear routes to get and change data.
 
-React UI calling the Express API (Axios)
+I wanted a basic screen that shows what’s in the database.
 
-MongoDB for persistence (Mongoose model)
+What it does
 
-**Tech**
+Add / edit / delete football teams.
 
-Frontend: React (Vite or CRA-style dev server), Axios
+Get first 10 teams.
 
-Backend: Node.js, Express, CORS, Mongoose
+Get average goals by year.
 
-DB: MongoDB (local), Compass for inspection
+Get stats for one team.
 
-**Prereqs**
+See results on a web page.
 
-Node 18+ (node -v)
+Tech (kept simple)
 
-MongoDB running locally on 27017 (Compass can confirm)
+Frontend: React, Axios
 
-Install
-# from project root (where package.json and /server live)
-npm install
-npm install express body-parser
+Backend: Node.js, Express
 
-**Run **
-# 1) Start MongoDB (service)
-# macOS (Homebrew):
-#   brew services start mongodb-community@7.0
-# Windows: start MongoDB service
-# Linux: sudo systemctl start mongod
+Database: MongoDB (local)
 
-# 2) Start API
-node server/server.js
-# logs: "Connected to MongoDB successfully!" + "Server running at http://localhost:3002"
+Prerequisites
 
-# 3) Start React app (new terminal)
-npm start
-# open http://localhost:3000
+Node 18+
 
-
-Default endpoints: API on http://localhost:3002, UI on http://localhost:3000.
+MongoDB running on localhost:27017 (check with Compass if you want)
